@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2b2b2b, #3e3e3e);
+    color: #f5f5f5;
+}
+
+header {
+    background: #1a1a1a;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid #ff4500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff4500;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #ff4500;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e63900;
+}
+
+.hidden {
+    display: none;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #2b2b2b;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    text-align: left;
+}
+
+.product h3 {
+    color: #ff4500;
+    margin: 0 0 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #1a1a1a;
+    padding: 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-top: 5px solid #ff4500;
+}
+
+footer p {
+    margin: 0;
+    color: #ff4500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    background: #2b2b2b;
+    color: #f5f5f5;
+}
+
+form button {
+    margin-top: 15px;
+    width: 150px;
+}
